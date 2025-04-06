@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Library</h1>
+        <select id="categoryFilter">
+            <option value="">All Categories</option>
+            <option value="Classic">Classic</option>
+            <option value="Dystopian">Dystopian</option>
+            <option value="Fiction">Fiction</option>
+            <option value="Non-Fiction">Non-Fiction</option>
+            <!-- Add more categories as needed -->
+        </select>
+        <input type="text" id="searchInput" placeholder="Search for books...">
+        <button id="searchButton">Search</button>
+        <div id="bookList" class="book-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
