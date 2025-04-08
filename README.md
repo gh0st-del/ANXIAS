@@ -5,7 +5,8 @@ ANXIAS is a comprehensive book library offering a diverse collection of books on
 ## Features
 
 - **Extensive Collection**: A wide range of books across different genres.
-- **Book Descriptions**: Brief descriptions for each book (not all may have descriptions).
+- **Book Descriptions**: Brief descriptions for each book (some may not have descriptions due to API limitations).
+- **Book Covers**: Brief covers for each book (some may not have covers due to API limitations).
 - **Favorites**: Easily add books to favorites for quick access.
 - **Search Functionality**: Find books by title or author using the search bar.
 - **Category Filtering**: Filter books by various categories.
