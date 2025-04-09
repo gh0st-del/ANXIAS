@@ -9,16 +9,14 @@
 <body>
     <div class="container">
         <h1>Book Library</h1>
-        <select id="categoryFilter">
-            <option value="">All Categories</option>
-            <option value="Classic">Classic</option>
-            <option value="Dystopian">Dystopian</option>
-            <option value="Fiction">Fiction</option>
-            <option value="Non-Fiction">Non-Fiction</option>
-            <!-- Add more categories as needed -->
-        </select>
-        <input type="text" id="searchInput" placeholder="Search for books...">
-        <button id="searchButton">Search</button>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for books...">
+            <button id="searchButton">Search</button>
+        </div>
+        <div class="button-container">
+            <button id="showAllButton" class="tab-button active">All Books</button>
+            <button id="showFavoritesButton" class="tab-button">My Favorites</button>
+        </div>
         <div id="bookList" class="book-list"></div>
     </div>
 
